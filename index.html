@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do pook!</title>
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+      
+    <form action="./php/card.php" method="post" id="form">
+
+        <div class="container card mt-5 d-flex shadow" style="width: 18rem;">
+            <h1 class="text-center mt-2 text-secondary font-weight-light">To Do Pook!</h1>
+            <img src="https://picsum.photos/200/200" class="card-img-top mt-1 rounded" alt="">
+            <div class="inputBox card-body"> 
+                <input class="w-100 mb-2" id="uname" type="text" name="Username" placeholder="Username"> 
+                <input class="w-100" id="pass" type="password" name="Password" placeholder="Password"> 
+                <div class="d-md-flex m-2">
+                    <input class="btn btn-outline-success w-50 m-1" type="submit" name="" value="Login">
+                    <input class="btn btn-danger w-50 m-1" type="reset" name="" value="reset">
+                </div>
+            </div> 
+        </div>
+        
+    </form> 
+
+</body>
+</html>
