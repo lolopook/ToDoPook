@@ -11,8 +11,8 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+            <a class="navbar-brand" href="#">Logo</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,20 +44,16 @@
     </header>
 
     <div class="container col-12 d-flex flex-wrap justify-content-around">
-        <section class=" col-4 mx-auto" style="max-width: 23rem;">
-            
-            <div class="card booking-card v-2 mt-2 mb-4 rounded-bottom">
-                    <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/Photos/Others/water-lily.jpg" class="img-fluid" alt="image de la card">
-
-                        <a href="#!">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                        </a>
+       
+        <section class=" col-12 mx-auto mt-4" style="max-width: 23rem;">
+            <div class="card booking-card shadow p-1 mb-5 bg-body rounded">
+                    <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light rounded" data-mdb-ripple-color="light">
+                        <img src="https://mdbootstrap.com/img/Photos/Others/water-lily.jpg" class="img-fluid rounded" alt="image de la card">
 
                     </div>
                     <div class="card-body">
 
-                        <h4 class="card-title font-weight-bold">
+                        <h4 class="card-title font-weight-bold mt-2">
                             <a>Titre de to do</a>
                         </h4>
 
@@ -92,17 +88,18 @@
                             </ul>
                         </div>
 
-                        <div class="col-12 m-1">
-                            <button type="submit" class="btn btn-warning col-12">delete</button>
+                        <div class="col-12 m-1 mt-5">
+                            <button type="submit" class="btn btn-danger col-12">delete</button>
                         </div>
-                        <div class="col-12 m-1">
-                            <button type="submit" class="btn btn-warning col-12">Archivre</button>
+                        <div class="col-12 m-1 mt-3">
+                            <button type="submit" class="btn btn-warning col-12 archive">Archivre</button>
+                        </div>
+                        <div class="col-12 m-1 mt-3">
+                            <button type="submit" class="btn btn-outline-success col-12 btnDone">Fait !</button>
                         </div>
 
                     </div>
             </div>
-            
-          
         </section>
         
       </div>

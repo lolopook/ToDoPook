@@ -1,5 +1,25 @@
 body {
-  background-color: #BDEDE0;
+  background-color: #efefef !important;
+}
+body header .navbar {
+  background-color: #BBDBD1 !important;
+  color: #6F58C9 !important;
+}
+body header .navbar #navbarNavDropdown {
+  justify-content: end !important;
+}
+body header .btn-outline-success {
+  color: #BBDBD1;
+}
+body .card-body {
+  background-color: #FFF;
+}
+body h1, body h4, body a {
+  color: #6F58C9 !important;
+}
+body div .archive {
+  background-color: #B6B8D6 !important;
+  border-color: #6F58C9;
 }
 
 /*# sourceMappingURL=main.css.map */

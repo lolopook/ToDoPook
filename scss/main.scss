@@ -1,5 +1,30 @@
 @import "./color";
 
 body {
-    background-color: $aeroblue ;
+    header {
+        .navbar {
+            background-color: $opal !important;
+            color : $slateblue !important;
+                #navbarNavDropdown {
+                    justify-content: end !important;
+                }   
+        }
+        .btn-outline-success {
+            color: $opal;
+        }
+    }
+
+    background-color: $fakewhilde !important;
+    .card-body {
+        background-color: $white;
+    }
+    h1, h4, a{
+        color: $slateblue !important;
+    }
+
+    div .archive {
+        background-color: $wildblue !important;
+        border-color: $slateblue;
+    }
+
 }
