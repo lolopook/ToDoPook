@@ -1,3 +1,14 @@
+<?php
+
+try {
+    
+    $bdd = new PDO("mysql:host=localhost:3306;dbname=to_do_list;charset=utf8", "root", "root");
+} catch (PDOException $e) {
+    echo 'Échec lors de la connexion : ' . $e->getMessage();
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
